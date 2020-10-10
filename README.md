@@ -1,5 +1,7 @@
 # Opps Logi Darmon
 
+![pic](./logi.png)
+
 ## Intro
 In order to solve the problem that the `Logi Options Daemon` suspended from time to time on macOS, I kill the `LogiMgrDaemon` process every 45 minutes.
 
