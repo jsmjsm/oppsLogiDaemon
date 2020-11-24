@@ -1,0 +1,6 @@
+#! /bin/zsh
+
+logiMgrDaemonPid=$(ps -ef | grep LogiMgrDaemon | sed '2d' | awk '{print $2}') && kill $logiMgrDaemonPid
+
+osascript -e 'tell application "Terminal" to close first window' & exit
+

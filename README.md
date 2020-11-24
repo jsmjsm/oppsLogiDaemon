@@ -14,3 +14,5 @@ Run this command in your Terminal
 ```
 crontab -l > conf && echo "*/45 * * * * logiMgrDaemonPid=\$(ps -ef | grep "LogiMgrDaemon" | sed '2d' | awk '{print \$2}') && kill \$logiMgrDaemonPid" >> conf && crontab conf && rm -f conf
 ```
+
+Also, you can down the `FuckYouLogi` exec and place it on the desktop. Run it when you need.
